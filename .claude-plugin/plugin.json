@@ -1,0 +1,21 @@
+{
+  "name": "writing-assistant",
+  "version": "1.0.0",
+  "description": "A collection of skills for reviewing, assessing, validating, and critiquing written content — articles, essays, blog posts, reports, and more.",
+  "author": {
+    "name": "EddieOz",
+    "url": "https://github.com/eddieoz"
+  },
+  "homepage": "https://github.com/eddieoz/skills",
+  "repository": "https://github.com/eddieoz/skills",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "review",
+    "critique",
+    "proofreading",
+    "references",
+    "persuasion"
+  ]
+}
