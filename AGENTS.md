@@ -49,6 +49,16 @@ hermes plugins install https://github.com/eddieoz/skills
 
 or paste `https://github.com/eddieoz/skills` into the desktop "Install from Git" dialog. Individual skills remain available under `skills/<name>` (and the legacy `writing-assistant/<name>` path).
 
+### Via Claude Code (pack)
+
+The repository ships a Claude Code plugin manifest at `.claude-plugin/plugin.json` (and `claude-plugin.json` at the root). Install the whole collection with:
+
+```bash
+claude plugin install https://github.com/eddieoz/skills
+```
+
+Skills under `skills/` are discovered automatically. Individual skills remain available under `skills/<name>`.
+
 ### Via Hermes Agent Config
 
 Add to your profile's `config.yaml`:
