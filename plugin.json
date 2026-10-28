@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "writing-assistant",
+  "version": "1.0.0",
+  "description": "A collection of Hermes Agent skills for reviewing, assessing, validating, and critiquing written content — articles, essays, blog posts, reports, and more.",
+  "author": {
+    "name": "EddieOz",
+    "url": "https://github.com/eddieoz"
+  },
+  "homepage": "https://github.com/eddieoz/writing-assistant-skills",
+  "repository": "https://github.com/eddieoz/writing-assistant-skills",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "review",
+    "critique",
+    "proofreading",
+    "references",
+    "persuasion"
+  ]
+}
