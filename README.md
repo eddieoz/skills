@@ -14,6 +14,16 @@ A collection of Hermes Agent skills for reviewing, assessing, validating, and cr
 
 ---
 
+## Installing as a Hermes plugin
+
+This repo is also a Hermes Agent **plugin pack**. The root now ships a `plugin.json` (Agent Plugins v1 manifest) and a `skills/` directory, so you can install the entire pack from the Hermes desktop "Install from Git" dialog or via:
+
+```bash
+hermes plugins install https://github.com/eddieoz/skills
+```
+
+Individual skills remain installable on their own from `skills/<name>` (or the legacy `writing-assistant/<name>` path).
+
 ## Quick Start
 
 These skills live in the `writing-assistant/` subdirectory. To use them with Hermes Agent:

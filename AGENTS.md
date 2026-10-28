@@ -5,8 +5,12 @@ Instructions for AI agents to install, configure, and use the writing-assistant 
 ## Repository Structure
 
 ```
-skills/
-└── writing-assistant/
+# Repo root is now also a Hermes Agent plugin pack:
+#   plugin.json   (Agent Plugins v1 manifest)
+#   SKILL.md      (meta-skill index)
+#   skills/       (symlinks to writing-assistant/*)
+
+writing-assistant/
     ├── critique-content/
     │   ├── SKILL.md
     │   ├── scripts/
@@ -34,6 +38,16 @@ skills/
 ```
 
 ## Installation
+
+### Via Hermes Plugin Install (pack)
+
+The repository root is a valid Hermes Agent plugin pack. Install the whole collection at once:
+
+```bash
+hermes plugins install https://github.com/eddieoz/skills
+```
+
+or paste `https://github.com/eddieoz/skills` into the desktop "Install from Git" dialog. Individual skills remain available under `skills/<name>` (and the legacy `writing-assistant/<name>` path).
 
 ### Via Hermes Agent Config
 
